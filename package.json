@@ -1,0 +1,43 @@
+{
+  "name": "@crv/vue-progress",
+  "version": "0.0.2",
+  "description": "📦 Lightweight Vue progress bar.",
+  "main": "dist/vue-progressbar.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pub:npm": "npm run build && npm publish --access=public",
+    "pub:yarn": "npm run build && npm publish --access=public",
+    "pub": "npm run pub:npm"
+  },
+  "keywords": [
+    "vue",
+    "@crv/vue-progress",
+    "loading",
+    "progress bar"
+  ],
+  "author": "cola_j",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LishiJ/vue-progress.git"
+  },
+  "homepage": "https://github.com/LishiJ/vue-progress.git#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "rollup": "^0.47.4",
+    "rollup-plugin-babel": "^3.0.1",
+    "rollup-plugin-commonjs": "^8.1.0",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-replace": "^1.1.1",
+    "rollup-plugin-uglify": "^2.0.1",
+    "rollup-plugin-vue": "^5.0.1",
+    "vue": "^2.6.10"
+  },
+  "dependencies": {
+    "vue-template-compiler": "^2.6.10"
+  }
+}
