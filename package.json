@@ -1,6 +1,6 @@
 {
   "name": "@crv/vue-progress",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "📦 Lightweight Vue progress bar.",
   "main": "dist/vue-progressbar.js",
   "scripts": {
