@@ -1,14 +1,12 @@
 {
   "name": "@crv/vue-progress",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "📦 Lightweight Vue progress bar.",
   "main": "dist/vue-progressbar.js",
   "scripts": {
     "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pub:npm": "npm run build && npm publish --access=public",
-    "pub:yarn": "npm run build && npm publish --access=public",
-    "pub": "npm run pub:npm"
+    "pub": "npm run build && npm publish --access=public",
   },
   "keywords": [
     "vue",
@@ -20,9 +18,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LishiJ/vue-progress.git"
+    "url": "git+https://github.com/seiwhale/vue-progress.git"
   },
-  "homepage": "https://github.com/LishiJ/vue-progress.git#readme",
+  "homepage": "https://github.com/seiwhale/vue-progress.git#readme",
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-plugin-external-helpers": "^6.22.0",
